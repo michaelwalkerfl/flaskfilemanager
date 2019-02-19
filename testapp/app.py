@@ -25,7 +25,7 @@ def create_app():
 
     # Create the webapp
     app = Flask(__name__)
-    app.secret_key = 'TestAppSecretKeyWhoCaresWhatThisIs'
+    app.secret_key = 'zdsfgstjwtrejqetrhhgfdfh'
     app.config['TEMPLATES_AUTO_RELOAD'] = True
     # This is where the path for the uploads is defined
     app.config['FLASKFILEMANAGER_FILE_PATH'] = 'tmp-webapp-uploads'
